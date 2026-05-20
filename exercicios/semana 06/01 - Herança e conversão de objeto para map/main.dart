@@ -8,8 +8,6 @@ void main() {
 
   final pedido = PedidoDeExameModel.fromMap(map);
 
-  final mapResult = pedido.toMap();
-
   print(pedido.paciente);
 
   //* 1. Crie uma abstração para a entidade acima (abstract) - ok
