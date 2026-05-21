@@ -1,5 +1,6 @@
 class DB {
   List<Map<String, dynamic>> getData() {
+    //*Camada que representa um banco de dados, poderia representar uma API ou algo do celular como camera.
     return [
       {
         'titulo': 'Guerra e Paz',
